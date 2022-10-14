@@ -1,0 +1,121 @@
+body {
+    font-family: 'Montserrat';
+}
+#title {
+    background-color: #ff4c68 ;
+    color: #fff;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 3.5;
+}
+h3{
+     font-family:'Montserrat-Bold'; 
+     font-size: 1.5rem;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+/* Navigation bar */
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+.download-btn {
+    margin: 5% 3% 5% 0%;
+}
+.title-img {
+    margin-top: 25px;
+    transform: rotate(25deg);
+    width: 19%;
+    position: absolute;
+}
+         /* Features  */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+}
+.icon{
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ef8172;
+}
+#testimonials {
+    color:#fff;
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #ff4c68;
+}
+.testemonial {
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+}
+#press {
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+               /* pricing section*/
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+/* CTA selection */
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading {
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-handels {
+    margin: 20px 10px;
+    color: #ff4c68;
+}
+@media (max-width:1024px){
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        transform: rotate(0);
+        position: static;
+        width: 80%;
+    }
+}
